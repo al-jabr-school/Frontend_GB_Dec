@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadvallar</title>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 350px;
+      }
+
+      table:nth-of-type(1) tr:nth-child(odd) {
+        background-color: #ddd;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      th {
+        text-align: left;
+        background-color: #bbb;
+      }
+
+      table:nth-of-type(1) td:last-child {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Jadvallar</h1>
+
+    <ol></ol>
+
+    <li></li>
+
+    <table>
+      <tr>
+        <th>Odam</th>
+        <th>Yosh</th>
+      </tr>
+      <tr>
+        <td>Chris</td>
+        <td>38</td>
+      </tr>
+      <tr>
+        <td>Dennis</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>Sarah</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>Karen</td>
+        <td>47</td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <table>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2" style="text-align: center">Average</th>
+        <th rowspan="2" style="text-align: center">Red Eyes</th>
+      </tr>
+      <tr>
+        <th>height</th>
+        <th>weight</th>
+      </tr>
+      <tr>
+        <th>Males</th>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <th>Females</th>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+      </tr>
+    </table>
+  </body>
+</html>

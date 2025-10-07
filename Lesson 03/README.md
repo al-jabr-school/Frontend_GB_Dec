@@ -2,13 +2,13 @@
 
 ## 1. CPU
 
-CPU - kompyuterning miyasi. Vazifasi - ko'r turdagi vazifalarni bajarish.
+CPU - kompyuterning miyasi. Vazifasi - ko'p turdagi vazifalarni bajarish.
 
 Turlari:
 
 - Intel: Core i3, Core i5, Core i7, Core i9
 - AMD: Ryzen 3, Ryzen 5, Ryzen 7, Ryzen 9
-- M chip (Macbook): M1, M2 va M3
+- M chip (Macbook): M1, M2, M3 va M4
 
 Vaziyatlarda ishlatilishi:
 
@@ -22,7 +22,7 @@ GPU - qiyin va bosim talab qiladigan vazifalarni bajarish uchun ishlatilladi.
 
 Turlari:
 
-- Integrated (AMD Radeon, Intel Iris Xe): CPU ichida qo'yillagan grafik karta. Ko'p oddiy ishlar uchun yaxshi.
+- Integrated (AMD Radeon, Intel Iris Xe): CPU ichida qo'yilgan grafik karta. Ko'p oddiy ishlar uchun yaxshi.
 - Dedicated (RTX/GTX, AMD RX): CPU dan alohida qo'yillagan grafik karta. O'yin yoki dasturlash uchun.
 
 Grafik karta variantlari:
@@ -64,11 +64,12 @@ HDD variantlari:
 
 Display - kompyuter/noutbuk ekrani.
 
-Resolution:
+Resolution: ekranda ko'rinadigan pixellar soni.
 
-- 1080p (Full HD): minimum standart
-- 2k/1440p: aniqroq va chiroyliroq ekran
-- 4k: eng chiroyli varianti lekin zaryadga yomon ta'sir qiladi
+- 1080p (Full HD - 2 mln pixel): minimum standart
+- 2k/1440p (3 mln pixel): aniqroq va chiroyliroq ekran
+- 4k (8.3 mln pixel): eng chiroyli varianti lekin zaryadga yomon ta'sir qiladi
+- 8k (33 mln pixel)
 
 Panel turi:
 
