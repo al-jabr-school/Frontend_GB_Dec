@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form onsubmit="return false;">
+      <h2>Contact Us</h2>
+
+      <div class="form-input">
+        <label for="ism">Full Name</label>
+        <input type="text" id="ism" placeholder="James Bond" />
+      </div>
+
+      <div class="form-group">
+        <div class="form-input">
+          <label for="pochta">Email</label>
+          <input type="email" id="pochta" placeholder="james@bond.com" />
+        </div>
+
+        <div class="form-input">
+          <label for="telefon">Phone</label>
+          <input type="tel" id="telefon" placeholder="+123 456 789" />
+        </div>
+      </div>
+
+      <div class="form-input">
+        <label for="xizmatlar">Needed Services</label>
+        <select id="xizmatlar">
+          <option>eCommerce</option>
+          <option>Trading</option>
+          <option>Web</option>
+        </select>
+      </div>
+
+      <p>What type of products do you sell?</p>
+
+      <div>
+        <input type="radio" name="mahsulot" id="physical" />
+        <label for="physical">Physical products</label>
+      </div>
+      <div>
+        <input type="radio" name="mahsulot" id="digital" />
+        <label for="digital">Digital products</label>
+      </div>
+      <div>
+        <input type="radio" name="mahsulot" id="consulting" />
+        <label for="consulting">Services Consulting</label>
+      </div>
+
+      <div class="form-input">
+        <label for="budget">Budget</label>
+        <input type="range" id="budget" />
+      </div>
+
+      <div class="form-input">
+        <label for="xabar">Message</label>
+        <textarea id="xabar" placeholder="Your message here..."></textarea>
+      </div>
+
+      <button type="submit">Submit →</button>
+    </form>
+  </body>
+</html>

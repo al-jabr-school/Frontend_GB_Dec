@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+  font-family: sans-serif;
+}
+
+form {
+  background-color: #fff;
+  width: 400px; /* vaqtincha */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input input,
+.form-input textarea,
+.form-input select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
